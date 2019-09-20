@@ -1,0 +1,114 @@
+#oRecordBox{
+    visibility: hidden;
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+}
+.recordBtn_top div{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+.recordBtn_bottom td{
+    font-size: 16px;
+}
+/*
+*RECORD
+*/
+.recordBtn_top .recordCtro>.playS{
+    cursor: pointer;
+    background: url("../btnImg/buttons.png") -40px 0 no-repeat;
+}
+.recordBtn_top .recordCtro>.recording{
+
+    background: url("../btnImg/recording.gif") no-repeat;
+}
+.recordBtn_top .recordCtro>.playS:hover{
+    background: url("../btnImg/buttons.png") -80px 0 no-repeat;
+}
+
+.recordBtn_top .recordCtro>.playM{
+    cursor: pointer;
+    background: url("../btnImg/buttons.png") -40px 0 no-repeat;
+}
+.recordBtn_top .recordCtro>.playM:hover{
+    background: url("../btnImg/buttons.png") -80px 0 no-repeat;
+}
+.recordBtn_top .recordCtro>.playH{
+    background: url("../btnImg/buttons.png") 0 -1px no-repeat;
+}
+
+/*
+*STOP
+*/
+.recordBtn_top .stopCtro>.stopS{
+    cursor: pointer;
+    background: url("../btnImg/buttons.png") -120px 0 no-repeat;
+}
+.recordBtn_top .stopCtro>.stopS:hover{
+    background: url("../btnImg/buttons.png") -200px 0 no-repeat;
+}
+.recordBtn_top .stopCtro>.stopS:active{
+    background: url("../btnImg/buttons.png") -160px -46px no-repeat;
+}
+
+.recordBtn_top .stopCtro>.stopM{
+    cursor: pointer;
+    background: url("../btnImg/buttons.png") -120px 0 no-repeat;
+}
+.recordBtn_top .stopCtro>.stopM:active{
+    background: url("../btnImg/buttons.png") -160px -46px no-repeat;
+}
+.recordBtn_top .stopCtro>.stopH{
+    background: url("../btnImg/buttons.png") -160px -1px no-repeat;
+}
+
+/*
+*LISTEN
+*/
+.recordBtn_top .listenCtro>.listenS{
+    cursor: pointer;
+    background: url("../btnImg/buttons.png") -42px -92px no-repeat;
+}
+.recordBtn_top .listenCtro>.listenS:hover{
+    background: url("../btnImg/replaying.gif") no-repeat;
+}
+.recordBtn_top .listenCtro>.listenS:active{
+    background: url("../btnImg/buttons.png") -83px -92px no-repeat;
+}
+
+.recordBtn_top .listenCtro>.listenM{
+    cursor: pointer;
+    background: url("../btnImg/buttons.png") -42px -92px no-repeat;
+}
+.recordBtn_top .listenCtro>.listenM:active{
+    background: url("../btnImg/buttons.png") -83px -92px no-repeat;
+}
+.recordBtn_top .listenCtro>.listenH{
+    background: url("../btnImg/buttons.png") 0 -92px no-repeat;
+}
+
+/*
+*NEXT
+*/
+.recordBtn_top .nextCtro>.nextS{
+    cursor: pointer;
+    background: url("../btnImg/buttons.png") 0 -46px no-repeat;
+}
+.recordBtn_top .nextCtro>.nextS:hover{
+    background: url("../btnImg/buttons.png") -40px -46px no-repeat;
+}
+.recordBtn_top .nextCtro>.nextS:active{
+    background: url("../btnImg/buttons.png") -81px -46px no-repeat;
+}
+
+.recordBtn_top .nextCtro>.nextM{
+    cursor: pointer;
+    background: url("../btnImg/buttons.png") 0 -46px no-repeat;
+}
+.recordBtn_top .nextCtro>.nextM:active{
+    background: url("../btnImg/buttons.png") -81px -46px no-repeat;
+}
+.recordBtn_top .nextCtro>.nextH{
+    background: url("../btnImg/buttons.png") -121px -46px no-repeat;
+}
